@@ -1,0 +1,32 @@
+.mainForm {
+  display: inline;
+}
+
+.name,
+.number {
+  font-size: small;
+}
+
+.inputName,
+.inputNumber {
+  width: 80px;
+  height: 15px;
+  background-color: grey;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin: 10px;
+  font-size: 10px;
+}
+
+.inputName:focus,
+.inputName:hover,
+.inputNumber:focus,
+.inputNumber:hover {
+  border: 1px solid white;
+}
+
+.addContact {
+  cursor: pointer;
+}

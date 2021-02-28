@@ -1,0 +1,20 @@
+.find {
+  font-size: small;
+}
+
+.inputFind {
+  width: 80px;
+  height: 15px;
+  background-color: grey;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin: 10px;
+  font-size: 10px;
+}
+
+.inputFind:hover,
+.inputFind:focus {
+  border: 1px solid white;
+}
